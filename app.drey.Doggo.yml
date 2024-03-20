@@ -1,6 +1,6 @@
 id: app.drey.Doggo
 runtime: org.gnome.Platform
-runtime-version: '45'
+runtime-version: '46'
 sdk: org.gnome.Sdk
 command: doggo
 finish-args:
@@ -32,9 +32,9 @@ modules:
     buildsystem: meson
     sources:
       - type: git
-        url: https://codeberg.org/SOrg/Doggo.git
-        tag: '4.2.2'
+        url: https://gitlab.gnome.org/sungsphinx/Doggo.git
+        tag: '46.0'
         x-checker-data:
           type: git
           tag-pattern: ([\d.]+)$
-        commit: c0d3d499ce60c65c6bc58a3dd4137dec3a83a813
+        commit: bc6dc36c526d70846447727047cb06a46ff15b01
