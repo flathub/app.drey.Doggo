@@ -25,16 +25,20 @@ modules:
       - '*'
     sources:
       - type: git
-        url: https://gitlab.gnome.org/jwestman/blueprint-compiler
-        tag: v0.10.0
+        url: https://gitlab.gnome.org/jwestman/blueprint-compiler.git
+        tag: 'v0.12.0'
+        x-checker-data:
+          type: git
+          tag-pattern: ([\d.]+)$
+        commit: 66b43c36cf1017c878762007373964a096b3d2a5
   - name: doggo
     builddir: true
     buildsystem: meson
     sources:
       - type: git
         url: https://gitlab.gnome.org/sungsphinx/Doggo.git
-        tag: '46.0'
+        tag: '46.1'
         x-checker-data:
           type: git
           tag-pattern: ([\d.]+)$
-        commit: bc6dc36c526d70846447727047cb06a46ff15b01
+        commit: 86143c01497950347762fc57759c3a59887a951b
