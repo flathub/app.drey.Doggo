@@ -33,8 +33,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/sungsphinx/Doggo.git
-        tag: '46.0'
+        tag: '46.1'
         x-checker-data:
           type: git
           tag-pattern: ([\d.]+)$
-        commit: bc6dc36c526d70846447727047cb06a46ff15b01
+        commit: 86143c01497950347762fc57759c3a59887a951b
